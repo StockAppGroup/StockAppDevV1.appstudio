@@ -1,0 +1,1 @@
+# StockAppDevV1.appstudio
