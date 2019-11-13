@@ -16,7 +16,16 @@
         "forms", 
         "Form1", 
         "Elements", 
-        "Input1.json"
+        "inptStock.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Form1", 
+        "Elements", 
+        "btnSubmitStock.json"
       ]
     }
   ], 
