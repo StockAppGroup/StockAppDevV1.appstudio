@@ -14,63 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Login", 
+        "Register", 
         "Elements", 
-        "inptUsername.json"
+        "inptSignUpUser.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Login", 
+        "Register", 
         "Elements", 
-        "inptPassword.json"
+        "inptSignUpPass.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Login", 
+        "Register", 
         "Elements", 
-        "btnLogin.json"
+        "btnSignUp.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Login", 
+        "Register", 
         "Elements", 
-        "lblNewUser.json"
+        "inptVerify.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Login", 
+        "Register", 
         "Elements", 
-        "btnRegister.json"
+        "lblVerified.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Login", 
+        "Register", 
         "Elements", 
-        "btnGoogle.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Login", 
-        "Elements", 
-        "lblResult.json"
+        "inptPhone.json"
       ]
     }
   ], 
@@ -80,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Login", 
+  "id": "Register", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

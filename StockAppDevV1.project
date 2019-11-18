@@ -21,6 +21,14 @@
             "Login", 
             "Login.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Register", 
+            "Register.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -71,7 +79,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "", 
+      "voltAppId": "v3CdZb", 
       "voltDomain": ""
     }
   ], 
