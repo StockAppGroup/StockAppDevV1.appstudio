@@ -1,19 +1,25 @@
-//DATABASE NEEDS TO BE SETUP BEFORE ANY OF THIS CAN BE COMPLETED
-//THIS IS JUST THE BASE CODE THAT NEEDS TO BE EDITED
+
 btnRegister.onclick=function(){
   ChangeForm(Register)
 }
 
 btnLogin.onclick=function(){
-req1 = ""
-    req1 = Ajax("https://radlab.creighton.edu/appStudio/authLDAP.php", "POST", "j_username=" + inptUsername.value + "&j_password=" + inptPassword.value);
-  //req1 = Ajax("https://otis.creighton.edu/authLDAP_3.php", "POST", "j_username=" + TextBox1.value + "&j_password=" + PasswordInput1.value);
+    let checkPass = inptPassword.value
+    let checkUser = inptUsername.value
+    let query = "SELECT username, password FROM user WHERE user_name = " + ' " ' + checkUser + ' " ' + " AND password = " + ' " ' + checkPass + ' " '
+    req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=bse29687&pass=BIA375pass&database=375groupa8&query=" + query) = ""    
+    results = JSON.parse(req1)
     if (req1.status == 200) { //everything worked.
-        //1 good 0 bad
-        
+        if (results.length = 0) {
+            lblResult.value = "Incorrect username or password"
+          } else {
+              ChangeForm(Home)
+              }
     } else {
         //Handle that. 
         lblResult.style.display = "block"  // none to hide
         lblResult.value = "Error Connection Not Made: " + req1.status + " readystate " + req1.readyState + " status text " + req1.statusText;
     }
+   
+    
 }
