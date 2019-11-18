@@ -18,8 +18,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form1", 
-            "Form1.json"
+            "Login", 
+            "Login.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Register", 
+            "Register.json"
           ]
         }
       ], 
@@ -35,7 +43,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "Login", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
@@ -71,7 +79,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "", 
+      "voltAppId": "v3CdZb", 
       "voltDomain": ""
     }
   ], 
