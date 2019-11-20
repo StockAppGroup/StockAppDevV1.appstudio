@@ -9,42 +9,14 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Form2", 
-        "Elements", 
-        "Label1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Form2", 
-        "Elements", 
-        "Listgroup1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Form2", 
-        "Elements", 
-        "Button1.json"
-      ]
-    }
-  ], 
+  "children": [], 
   "class": "", 
-  "designHeight": 460, 
-  "designWidth": 320, 
+  "designHeight": 0, 
+  "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form2", 
+  "id": "Form3", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
