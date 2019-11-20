@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "lblNewUser", 
   "labelStyle": "text", 
-  "left": 32, 
+  "left": 16, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 360, 
+  "top": 248, 
   "value": "Don't Have an Account?", 
   "width": "auto"
 }

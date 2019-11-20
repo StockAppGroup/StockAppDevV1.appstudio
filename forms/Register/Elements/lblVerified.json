@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": "auto", 
+  "height": 16, 
   "hidden": "", 
   "id": "lblVerified", 
   "labelStyle": "text", 
-  "left": 8, 
+  "left": 16, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 208, 
+  "top": 240, 
   "value": "", 
-  "width": "auto"
+  "width": 224
 }
