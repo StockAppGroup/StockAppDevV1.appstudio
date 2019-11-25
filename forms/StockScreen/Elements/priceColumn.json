@@ -1,5 +1,5 @@
 {
-  "!type": "GridRow_bs4", 
+  "!type": "GridColumn_bs4", 
   "alignContent": "", 
   "alignItems": "", 
   "backgroundColor": "", 
@@ -16,7 +16,7 @@
         "forms", 
         "StockScreen", 
         "Elements", 
-        "news1.json"
+        "lblPrice.json"
       ]
     }, 
     {
@@ -25,16 +25,7 @@
         "forms", 
         "StockScreen", 
         "Elements", 
-        "news2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "StockScreen", 
-        "Elements", 
-        "news3.json"
+        "alertPrice.json"
       ]
     }
   ], 
@@ -48,12 +39,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "gutters": "", 
-  "height": "100", 
-  "hidden": "display:none; ", 
-  "id": "newsGrid", 
+  "height": "100px", 
+  "hidden": "", 
+  "id": "priceColumn", 
   "justifyContent": "", 
-  "left": 0, 
+  "left": "auto", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -73,12 +63,15 @@
   "pLeft": "", 
   "pRight": "", 
   "pTop": "", 
-  "position": "absolute", 
+  "position": "static", 
   "right": "auto", 
-  "rowClass": "", 
   "script": "", 
+  "size-lg": 4, 
+  "size-md": 4, 
+  "size-sm": 4, 
+  "size-xl": 4, 
+  "size-xs": 4, 
   "style": "", 
-  "top": 360, 
-  "verticalAlign": "", 
-  "width": "100%"
+  "top": "auto", 
+  "width": ""
 }

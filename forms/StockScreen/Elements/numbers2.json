@@ -9,7 +9,35 @@
   "bottom": "auto", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StockScreen", 
+        "Elements", 
+        "week52High.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StockScreen", 
+        "Elements", 
+        "week52Low.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StockScreen", 
+        "Elements", 
+        "ytdChange.json"
+      ]
+    }
+  ], 
   "class": "", 
   "color": "", 
   "display": "", 
@@ -44,7 +72,7 @@
   "pLeft": "", 
   "pRight": "", 
   "pTop": "", 
-  "position": "static", 
+  "position": "absolute", 
   "right": "auto", 
   "script": "", 
   "size-lg": 4, 

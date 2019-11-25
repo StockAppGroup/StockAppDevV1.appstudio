@@ -16,7 +16,7 @@
         "forms", 
         "StockScreen", 
         "Elements", 
-        "news1.json"
+        "Label1.json"
       ]
     }, 
     {
@@ -25,16 +25,7 @@
         "forms", 
         "StockScreen", 
         "Elements", 
-        "news2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "StockScreen", 
-        "Elements", 
-        "news3.json"
+        "Label2.json"
       ]
     }
   ], 
@@ -50,10 +41,10 @@
   "fontWeight": "", 
   "gutters": "", 
   "height": "100", 
-  "hidden": "display:none; ", 
-  "id": "newsGrid", 
+  "hidden": "", 
+  "id": "GridRow1", 
   "justifyContent": "", 
-  "left": 0, 
+  "left": "auto", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -73,12 +64,12 @@
   "pLeft": "", 
   "pRight": "", 
   "pTop": "", 
-  "position": "absolute", 
+  "position": "static", 
   "right": "auto", 
   "rowClass": "", 
   "script": "", 
   "style": "", 
-  "top": 360, 
+  "top": "auto", 
   "verticalAlign": "", 
   "width": "100%"
 }

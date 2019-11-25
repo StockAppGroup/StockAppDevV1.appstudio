@@ -25,6 +25,15 @@
         "forms", 
         "StockScreen", 
         "Elements", 
+        "GridColumn1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StockScreen", 
+        "Elements", 
         "imgLogo.json"
       ]
     }, 
@@ -35,15 +44,6 @@
         "StockScreen", 
         "Elements", 
         "btnAddStock.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "StockScreen", 
-        "Elements", 
-        "GridRow1.json"
       ]
     }, 
     {

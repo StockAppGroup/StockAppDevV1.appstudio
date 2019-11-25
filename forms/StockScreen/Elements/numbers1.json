@@ -16,25 +16,7 @@
         "forms", 
         "StockScreen", 
         "Elements", 
-        "marketCap.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "StockScreen", 
-        "Elements", 
-        "pe.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "StockScreen", 
-        "Elements", 
-        "GridRow2.json"
+        "GridRow1.json"
       ]
     }
   ], 

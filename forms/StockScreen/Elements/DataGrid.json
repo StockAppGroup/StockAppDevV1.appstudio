@@ -50,7 +50,7 @@
   "fontWeight": "", 
   "gutters": "", 
   "height": "100", 
-  "hidden": "", 
+  "hidden": "display:none; ", 
   "id": "DataGrid", 
   "justifyContent": "", 
   "left": 0, 
@@ -78,7 +78,7 @@
   "rowClass": "", 
   "script": "", 
   "style": "", 
-  "top": 256, 
+  "top": 368, 
   "verticalAlign": "", 
   "width": "100%"
 }
