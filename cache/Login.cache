@@ -3,8 +3,6 @@ btnRegister.onclick=function(){
   ChangeForm(Register)
 }
 
-
-
 btnLogin.onclick=function(){
     let checkPass = inptPassword.value
     let checkUser = inptUsername.value
