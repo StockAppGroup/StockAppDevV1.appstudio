@@ -18,18 +18,44 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "StockSearch", 
-            "StockSearch.json"
+            "Login", 
+            "Login.json"
           ]
         }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
-            "StockScreen", 
-            "StockScreen.json"
+            "Register", 
+            "Register.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Home", 
+            "Home.json"
           ]
         }
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+           "StockScreen", 
+            "StockScreen.json"
+
+          ]
+        }
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "StockSearch", 
+            "StockSearch.json"
+
+          ]
+        }        
       ], 
       "configxml": null, 
       "contentSecurityPolicy": "", 
@@ -79,7 +105,7 @@
       "useStrict": "", 
       "version": "1.0.0", 
       "viewportFit": "cover", 
-      "voltAppId": "", 
+      "voltAppId": "v3CdZb", 
       "voltDomain": ""
     }
   ], 
