@@ -18,24 +18,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form1", 
-            "Form1.json"
+            "StockSearch", 
+            "StockSearch.json"
           ]
         }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
-            "Form2", 
-            "Form2.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "Form3", 
-            "Form3.json"
+            "StockScreen", 
+            "StockScreen.json"
           ]
         }
       ], 
@@ -51,7 +43,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "StockSearch", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

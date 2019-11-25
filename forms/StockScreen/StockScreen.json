@@ -14,27 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Form2", 
+        "StockScreen", 
         "Elements", 
-        "Label1.json"
+        "hmbNavScreen.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Form2", 
+        "StockScreen", 
         "Elements", 
-        "Listgroup1.json"
+        "imgLogo.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Form2", 
+        "StockScreen", 
         "Elements", 
-        "Button1.json"
+        "btnAddStock.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StockScreen", 
+        "Elements", 
+        "GridRow1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StockScreen", 
+        "Elements", 
+        "DataGrid.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StockScreen", 
+        "Elements", 
+        "newsGrid.json"
       ]
     }
   ], 
@@ -44,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form2", 
+  "id": "StockScreen", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -52,13 +79,13 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "StockScreen.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
   "script": null, 
   "scroll_options": "mouseWheel:true, bounce:true, zoom:false", 
-  "scrolling": "false", 
+  "scrolling": "true", 
   "setFocusID": "", 
   "style": "", 
   "theme": "", 
