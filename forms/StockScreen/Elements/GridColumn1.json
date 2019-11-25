@@ -30,7 +30,7 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 408, 
+  "height": 112, 
   "hidden": "", 
   "id": "GridColumn1", 
   "justifyContent": "", 
@@ -64,5 +64,5 @@
   "size-xs": 4, 
   "style": "", 
   "top": 56, 
-  "width": 160
+  "width": 312
 }
