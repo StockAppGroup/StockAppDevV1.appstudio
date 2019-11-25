@@ -38,6 +38,24 @@
             "Home.json"
           ]
         }
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+           "StockScreen", 
+            "StockScreen.json"
+
+          ]
+        }
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "StockSearch", 
+            "StockSearch.json"
+
+          ]
+        }        
       ], 
       "configxml": null, 
       "contentSecurityPolicy": "", 
@@ -51,7 +69,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Login", 
+      "firstform": "StockSearch", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
