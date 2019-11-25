@@ -29,6 +29,14 @@
             "Register", 
             "Register.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Home", 
+            "Home.json"
+          ]
         }
       ], 
       "configxml": null, 

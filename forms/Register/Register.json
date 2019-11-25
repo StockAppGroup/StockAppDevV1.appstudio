@@ -63,6 +63,24 @@
         "Elements", 
         "inptPhone.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Register", 
+        "Elements", 
+        "btnBack.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Register", 
+        "Elements", 
+        "lblInfo.json"
+      ]
     }
   ], 
   "class": "", 

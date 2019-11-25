@@ -28,14 +28,14 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnRegister", 
-  "left": 16, 
+  "id": "btnBack", 
+  "left": 104, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
   "mRight": "", 
   "mTop": "", 
-  "onclick": "btnRegister.onclick()", 
+  "onclick": "btnBack.onclick()", 
   "onmousedown": "", 
   "onmousemove": "", 
   "onmouseout": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 304, 
-  "value": "Create an Account", 
-  "width": "auto"
+  "top": 296, 
+  "value": "Back", 
+  "width": 88
 }
