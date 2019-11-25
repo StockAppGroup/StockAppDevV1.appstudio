@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 16, 
+  "height": "auto", 
   "hidden": "", 
-  "id": "lblResult", 
+  "id": "Label1", 
   "labelStyle": "text", 
-  "left": 24, 
+  "left": 88, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 280, 
-  "value": "", 
-  "width": 160
+  "top": 144, 
+  "value": "Congrats it worked", 
+  "width": "auto"
 }
