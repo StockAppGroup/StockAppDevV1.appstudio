@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "lblVerified", 
   "labelStyle": "text", 
-  "left": 16, 
+  "left": 8, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 240, 
+  "top": 344, 
   "value": "", 
   "width": 224
 }
