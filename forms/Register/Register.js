@@ -1,4 +1,8 @@
 //User registration process
+btnBack.onclick=function(){
+  ChangeForm(Login)
+}
+
 btnSignUp.onclick=function(){
   let newUser = inptSignUpUser.value
   let newPass = inptSignUpPass.value
@@ -40,8 +44,4 @@ btnSignUp.onclick=function(){
                             lblVerified.style.display = "block"  // none to hide
                             lblVerified.value = "Error Connection Not Made: " + req2.status + " readystate " + req2.readyState + " status text " + req2.statusText;
                             }
-}
-
-btnBack.onclick=function(){
-  ChangeForm(Login)
 }
