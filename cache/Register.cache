@@ -18,7 +18,7 @@ btnSignUp.onclick=function(){
                     } else {
                                  req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=bse29687&pass=BIA375pass&database=375groupa8&query=" + queryPhoneExist)   
                                     if (req3.status == 200) { //everything worked.
-                                      results2 = JSON.parse(req3)
+                                      results2 = JSON.parse(req3.responseText)
                                         if (results2.length > 0) {
                                         lblVerified.value = "A user is already registered under this phone number"
                                         } else {
@@ -52,6 +52,7 @@ btnSignUp.onclick=function(){
       7) else: insert the data using queryNew (req4 = Ajax)X
       8) ChangeForm(Home)X
       9) Tie everything off with error messagesX
+Issues: Stopping at req2. Is there any special fromat for mutliple ajax connections?
 */
 
 btnBack.onclick=function(){
