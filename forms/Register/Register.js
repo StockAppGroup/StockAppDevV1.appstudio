@@ -52,6 +52,7 @@ btnSignUp.onclick=function(){
       7) else: insert the data using queryNew (req4 = Ajax)X
       8) ChangeForm(Home)X
       9) Tie everything off with error messagesX
+Issues: Stopping at req2. Is there any special fromat for mutliple ajax connections?
 */
 
 btnBack.onclick=function(){
