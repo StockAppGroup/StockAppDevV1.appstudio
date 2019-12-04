@@ -37,6 +37,14 @@
             "Home", 
             "Home.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "NewStock", 
+            "NewStock.json"
+          ]
         }
       ], 
       "configxml": null, 
