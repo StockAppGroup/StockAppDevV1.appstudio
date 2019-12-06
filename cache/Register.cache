@@ -28,7 +28,8 @@ btnSignUp.onclick=function(){
                                         } else {
                                               req4 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=bse29687&pass=BIA375pass&database=375groupa8&query=" + queryNew)  
                                                  if (req4.status == 200) { //everything worked.
-                                                  ChangeForm(Home)
+                                                  lblResult.value = "Registration successful! Please login."
+                                                  ChangeForm(Login)
                                                           } else {
                                                             lblVerified.style.display = "block"  // none to hide
                                                             lblVerified.value = "Error Connection Not Made: " + req4.status + " readystate " + req4.readyState + " status text " + req4.statusText;

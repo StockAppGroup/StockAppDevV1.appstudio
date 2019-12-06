@@ -20,11 +20,12 @@ btnLogin.onclick=function(){
               if (req6.status == 200) { //everything worked.
               currentUserID = JSON.parse(req6.responseText)
               ChangeForm(Home)
-            } else (
-                //Handle that. 
-                lblResult.style.display = "block"  // none to hide
-                lblResult.value = "Error Connection Not Made: " + req6.status + " readystate " + req6.readyState + " status text " + req6.statusText;
-            }
+              } else {
+                  //Handle that. 
+                  lblResult.style.display = "block"  // none to hide
+                  lblResult.value = "Error Connection Not Made: " + req6.status + " readystate " + req6.readyState + " status text " + req6.statusText;
+                 }
+      }
     } else {
         //Handle that. 
         lblResult.style.display = "block"  // none to hide
